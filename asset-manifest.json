@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/shoponline/static/css/main.65b42b9c.chunk.css",
+    "main.js": "/shoponline/static/js/main.da255077.chunk.js",
+    "main.js.map": "/shoponline/static/js/main.da255077.chunk.js.map",
+    "runtime-main.js": "/shoponline/static/js/runtime-main.390b0469.js",
+    "runtime-main.js.map": "/shoponline/static/js/runtime-main.390b0469.js.map",
+    "static/js/2.444d5ad6.chunk.js": "/shoponline/static/js/2.444d5ad6.chunk.js",
+    "static/js/2.444d5ad6.chunk.js.map": "/shoponline/static/js/2.444d5ad6.chunk.js.map",
+    "static/js/3.2478206f.chunk.js": "/shoponline/static/js/3.2478206f.chunk.js",
+    "static/js/3.2478206f.chunk.js.map": "/shoponline/static/js/3.2478206f.chunk.js.map",
+    "index.html": "/shoponline/index.html",
+    "static/css/main.65b42b9c.chunk.css.map": "/shoponline/static/css/main.65b42b9c.chunk.css.map",
+    "static/js/2.444d5ad6.chunk.js.LICENSE.txt": "/shoponline/static/js/2.444d5ad6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.390b0469.js",
+    "static/js/2.444d5ad6.chunk.js",
+    "static/css/main.65b42b9c.chunk.css",
+    "static/js/main.da255077.chunk.js"
+  ]
+}
