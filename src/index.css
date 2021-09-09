@@ -1,13 +1,216 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+.logo {
+  color: white;
+  padding: 10px 0;
+  text-shadow: 0 4px 6px #666;
+}
+
+.logo span {
+  color: orange;
+}
+
+.logo:hover {
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+  height: 100vh;
+}
+
+.left-img {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.data-info {
+  width: 50vw;
+}
+
+.data-info .title {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.data-info .description {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  margin-bottom: 16px;
+}
+
+.colorhead {
+  margin-bottom: 10px;
+}
+
+.colorimg img {
+  width: 100px;
+  max-width: 80px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  margin-left: 12px;
+}
+
+.colorimg img:hover {
+  cursor: pointer;
+  border: 2px solid teal;
+}
+
+.btn {
+  font-size: 25px;
+  padding: 5px 10px;
+  color: white;
+  background: orange;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  margin-top: 10px;
+}
+
+.addbtn {
+  text-decoration: none;
+  font-size: 20px;
+  padding: 5px 10px;
+  color: white;
+  background: orange;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  margin-top: 10px;
+  margin: 20px 0;
+}
+
+.addbtn:hover {
+  cursor: pointer;
+  background-color: #333;
+  color: orange;
+}
+
+.features li {
+  font-size: 15px;
+}
+.features {
+  margin-bottom: 7px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: orange;
+  letter-spacing: 2px;
+  border: 2px solid orange;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.price h3 {
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.buyhere {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buyhere .form-container {
+  width: 400px;
+  background: pink;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.8);
+}
+.buyhere .form-container form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buyhere .form-container form label {
+  margin: 5px;
+  font-weight: bold;
+}
+.buyhere .form-container form label input {
+  font-size: 20px;
+  width: 100%;
+}
+
+.buyhere .form-container form .gender {
+  font-size: 20px;
+  margin: 5px;
+}
+
+.buyhere .form-container form .gender input {
+  margin: 10px;
+}
+
+.buyhere .form-container form .qty {
+  width: 50px;
+}
+.buyhere .form-container form .date {
+  display: inline;
+}
+
+.buyhere .form-container form .date .dateinput {
+  width: 150px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: initial;
+  }
+  .container .left-img {
+    width: 80%;
+  }
+  .container .data-info {
+    width: 80%;
+  }
+  .buyhere {
+    margin-top: 150px;
+  }
+  .buyhere .form-container {
+    width: 90vw;
+    margin-top: 70px;
+  }
+
+  .preimg {
+    width: 150vw;
+    height: 150vh;
+  }
 }
